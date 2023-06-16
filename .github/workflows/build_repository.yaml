@@ -18,7 +18,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
 
     - name: Build Packages
-      uses: alesar1/build-aur-packages@v1
+      uses: alesar1/build-aur-packages
       with:
         packages: >
           schildichat-desktop
