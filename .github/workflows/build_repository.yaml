@@ -23,6 +23,7 @@ jobs:
         packages: >
           schildichat-desktop
           microsoft-edge-stable-bin
+          bottles
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
