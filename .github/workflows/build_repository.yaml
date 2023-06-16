@@ -1,4 +1,6 @@
 name: Make Repository
+permissions:
+  contents: write
 
 on:
   push:
