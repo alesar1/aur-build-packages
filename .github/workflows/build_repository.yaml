@@ -24,6 +24,7 @@ jobs:
           schildichat-desktop
           microsoft-edge-stable-bin
           bottles
+          pcsx2
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
