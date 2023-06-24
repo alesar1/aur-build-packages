@@ -26,7 +26,6 @@ jobs:
           bottles
           pcsx2
           yay
-          epsxe
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
