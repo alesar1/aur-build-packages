@@ -27,7 +27,7 @@ jobs:
           pcsx2
           yay
           sunshine
-          obs-backgroundremoval-git
+          obs-backgroundremoval
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
