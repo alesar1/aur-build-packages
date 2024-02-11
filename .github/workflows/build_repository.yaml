@@ -21,7 +21,6 @@ jobs:
       uses: alesar1/build-aur-packages@v1.0.0
       with:
         packages: >
-          schildichat-desktop
           microsoft-edge-stable-bin
           bottles
           pcsx2
