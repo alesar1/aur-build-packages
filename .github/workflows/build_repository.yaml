@@ -23,7 +23,6 @@ jobs:
         packages: >
           microsoft-edge-stable-bin
           bottles
-          pcsx2
           yay
           sunshine
           obs-backgroundremoval
