@@ -18,7 +18,7 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
 
     - name: Build Packages
-      uses: alesar1/build-aur-packages@v1.0.0
+      uses: alesar1/build-aur-packages@v1.0.1
       with:
         packages: >
           microsoft-edge-stable-bin
